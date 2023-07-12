@@ -10,7 +10,7 @@ aci = []
 for i in range (0,6):
     nx = input('Elija'+numlet[i]+'numero: ')
     nx = int(nx)
-    while nx>41 or nx<0 or boljug.count(nx)>0:
+    while nx>41 or nx<=0 or boljug.count(nx)>0:
         print('Su numero debe ser entre 1 y 41, ademas no puede repetirse...')
         nx = input('Elija' + numlet[i] + 'numero: ')
         nx = int(nx)
