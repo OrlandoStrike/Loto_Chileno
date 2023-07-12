@@ -1,4 +1,4 @@
-#El Loto se basa en acertar 6 números del 1 al 41
+#El Loto se basa en acertar 6 números del 1 al 41 mao mao
 import random
 import time
 import sys
